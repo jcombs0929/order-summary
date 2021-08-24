@@ -21,12 +21,12 @@ Build out a designed component by any means I choose.
 
 ### Screenshot
 
-[](./images/screencapture-solution.png)
+[./images/screencapture-solution.png]()
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/order-summary-flexbox-and-svg-5D6_sPy9l)
-- Live Site URL: [Add live site URL here](https://unruffled-goodall-249338.netlify.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-flexbox-and-svg-5D6_sPy9l]()
+- Live Site URL: [https://unruffled-goodall-249338.netlify.app/]()
 
 ## My process
 
@@ -44,4 +44,4 @@ A mixins stylesheet should come standard in future projects. They organize style
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jcombs0929)
+- Frontend Mentor - [@jcombs0929](https://www.frontendmentor.io/profile/jcombs0929)
