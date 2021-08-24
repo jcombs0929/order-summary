@@ -6,41 +6,76 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    @media (max-width: $mobile) { 
+        font-size: 14px;
+    }
 }
 
 body {
-    background: $very-pale-blue-02;
+    background: linear-gradient($very-pale-blue-02), url(./images/waves.svg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+
+    @media (max-width: $mobile) { 
+        justify-content: unset;
+    }
+}
+
+.custom-shape-divider-top-1629783913 {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: $pale-blue;
+
+    @media (max-width: $mobile) {
+        display: none;
+    }
+}
+
+
+.custom-shape-divider-top-1629783913 svg {
+    position: relative;
+    display: block;
+    width: calc(152% + 1.3px);
+    height: 25vh;
+}
+
+.custom-shape-divider-top-1629783913 .shape-fill {
+    fill: $very-pale-blue-02;
 }
 
 .container {
     max-width: 450px;
     margin: 0 auto;
     text-align: center;
+    z-index: 999;
 }
 
 .card {
     background-color: #fff;
     display: block;
-    width: 100%;
     border-radius: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem;
     overflow: hidden;
     box-shadow: 0 20px 24px rgba($desaturated-blue, .2);
 
     &__image {
-        background: url(./images/illustration-hero.svg);
+        background: url(./images/illustration-hero.svg) center;
+        background-size: cover;
         display: block;
-        width: 100%;
-        height: 220px;
+        height: 25vh;        
     }
 
     &__content {
-        padding: 3rem;
+        padding: 10%;
         line-height: 1.6;
         color: $dark-blue;
     }
@@ -50,9 +85,7 @@ body {
         margin-bottom: 1rem;
     }
 
-    &__info {
-        color: $desaturated-blue;
-    }
+    &__info { color: $desaturated-blue; }
 
     .order {
         display: flex;
@@ -63,22 +96,15 @@ body {
         border-radius: 10px;
         margin: 1.5rem 0;
 
-        &__icon {
-            margin-right: 1rem;
-        }
+        &__icon { margin-right: 1rem; }
 
         .order-plan {
             flex: 2;
             text-align: left;
 
             > div { font-size: 14px; }
-
-            &__title {
-                font-weight: 900;
-            }
-            &__price {
-                color: $desaturated-blue;
-            }
+            &__title { font-weight: 900; }
+            &__price { color: $desaturated-blue; }
         }
 
         &__change-plan a { 
@@ -98,9 +124,7 @@ body {
         text-decoration: none;
         transition: .2s all ease-in-out;
 
-        &:hover {
-            cursor: pointer;
-        } 
+        &:hover { cursor: pointer; } 
     }
 
     .proceed {
@@ -115,12 +139,8 @@ body {
     .cancel {
         color: $desaturated-blue;
 
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-
-   
+        &:hover { text-decoration: underline; }
+    } 
 }
 
 .attribution, .attribution > * {
