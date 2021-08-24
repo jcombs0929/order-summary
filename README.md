@@ -21,12 +21,12 @@ Build out a designed component by any means I choose.
 
 ### Screenshot
 
-[./images/screencapture-solution.png]()
+![](./images/screencapture-solution.png)
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-flexbox-and-svg-5D6_sPy9l]()
-- Live Site URL: [https://unruffled-goodall-249338.netlify.app/]()
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-flexbox-and-svg-5D6_sPy9l](https://www.frontendmentor.io/solutions/order-summary-flexbox-and-svg-5D6_sPy9l)
+- Live Site URL: [https://unruffled-goodall-249338.netlify.app/](https://unruffled-goodall-249338.netlify.app/)
 
 ## My process
 
