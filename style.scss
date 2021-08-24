@@ -30,6 +30,7 @@ body {
     border-radius: 1rem;
     margin-bottom: 1rem;
     overflow: hidden;
+    box-shadow: 0 20px 24px rgba($desaturated-blue, .2);
 
     &__image {
         background: url(./images/illustration-hero.svg);
