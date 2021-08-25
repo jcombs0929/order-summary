@@ -25,7 +25,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-size: contain;
+  background-size: 100vw 50vh;
   height: 100vh;
 }
 
