@@ -14,8 +14,7 @@
 }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#d6e1fe)), url(./images/waves.svg);
-  background: linear-gradient(#d6e1fe), url(./images/waves.svg);
+  background: #e0e8ff url("./images/pattern-background-desktop.svg") no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,14 +25,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   height: 100vh;
 }
 
 @media (max-width: 375px) {
   body {
+    background: #e0e8ff url("./images/pattern-background-mobile.svg") no-repeat;
     -webkit-box-pack: unset;
         -ms-flex-pack: unset;
             justify-content: unset;
@@ -86,7 +83,7 @@ body {
 }
 
 .card__image {
-  background: url(./images/illustration-hero.svg) center;
+  background: url("./images/illustration-hero.svg") center;
   background-size: cover;
   display: block;
   height: 25vh;
@@ -125,6 +122,13 @@ body {
 
 .card .order__icon {
   margin-right: 1rem;
+  height: 50px;
+  width: 50px;
+}
+
+.card .order__icon .icon {
+  background: url("./images/icon-music.svg") center;
+  height: 100%;
 }
 
 .card .order .order-plan {

@@ -13,14 +13,16 @@
 }
 
 body {
-    background: linear-gradient($very-pale-blue-02), url(./images/waves.svg);
+    background: $pale-blue url("./images/pattern-background-desktop.svg") no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    // background-size: contain;
+    // align-items: center;
     height: 100vh;
 
     @media (max-width: $mobile) { 
+        background: $pale-blue url("./images/pattern-background-mobile.svg") no-repeat;
         justify-content: unset;
     }
 }
@@ -68,7 +70,7 @@ body {
     box-shadow: 0 20px 24px rgba($desaturated-blue, .2);
 
     &__image {
-        background: url(./images/illustration-hero.svg) center;
+        background: url("./images/illustration-hero.svg") center;
         background-size: cover;
         display: block;
         height: 25vh;        
@@ -96,7 +98,16 @@ body {
         border-radius: 10px;
         margin: 1.5rem 0;
 
-        &__icon { margin-right: 1rem; }
+        &__icon { 
+            margin-right: 1rem; 
+            height: 50px;
+            width: 50px;
+            
+            .icon {
+                background: url("./images/icon-music.svg") center;
+                height: 100%;
+            }
+        }
 
         .order-plan {
             flex: 2;
