@@ -17,8 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // background-size: contain;
-    // align-items: center;
+    background-size: contain;
     height: 100vh;
 
     @media (max-width: $mobile) { 
